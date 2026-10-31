@@ -6,7 +6,7 @@
     {
       "id": "arabic-starter",
       "name": "العربية (تجريبية)",
-      "description": "Arabic starter translation: navigation, Market and selected settings. Partial, not native-reviewed; missing text uses English. / 阿拉伯语入门包，部分翻译，尚未经母语审校。",
+      "description": "Arabic starter translation: navigation, Market and selected settings. Partial, not native-reviewed; missing text uses English.",
       "version": "1.0.0",
       "publisher": "MaktubCN",
       "minAppVersion": "0.1.1",
