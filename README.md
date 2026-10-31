@@ -11,7 +11,7 @@ The public language-pack catalog for [Mandala](https://github.com/MaktubCN/open-
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for validation, publication, updates, and review expectations. The App currently has no visual translation editor or local language-file import button; editing a JSON file and contributing it through GitHub is the supported authoring path.
 
-Installation does not switch languages. Missing translations fall back to English. Applying a pack changes this device's UI language and text direction, not Agent response language, memory language, or existing conversations. Uninstalling the active pack returns the UI to English.
+Installation does not switch languages. Missing translations fall back to English. Applying a pack changes this device's UI language and text reading direction. Sidebar and drawer placement, control order, and layout alignment stay unchanged; RTL text does not mirror the application. Agent response language, memory language, and existing conversations stay unchanged. Uninstalling the active pack returns the UI to English.
 
 ## Arabic starter
 

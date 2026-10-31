@@ -21,12 +21,12 @@ Create `packages/fr.mandala-language.json`, for example:
 This is a minimal format example, not a complete French translation. The Chinese keys are App identifiers, while the values are French. Start with the keys you can translate confidently, or copy entries from [`messages.en.json`](messages.en.json). That file is a dictionary, **not** an installable pack: wrap your translated dictionary in the `messages` field above.
 
 - Use a canonical BCP 47 locale such as `fr`, `pt-BR`, or `ar`. Built-in `en` and `zh-CN` cannot be overridden.
-- Use a recognizable native language name. Set `direction` to `rtl` for right-to-left languages and `ltr` otherwise.
+- Use a recognizable native language name. Set `direction` to `rtl` for right-to-left languages and `ltr` otherwise. This describes text reading direction; it does not mirror the sidebar, drawers, control order, or layout alignment.
 - Keep every source key unchanged. Preserve the exact placeholder names, including braces; you may reorder them within a sentence.
 - Omit untranslated entries so the App can fall back to English. Empty translation strings are invalid.
 - Values are plain text; HTML, CSS, and JavaScript are not interpreted.
 - The dictionary must contain 1–10,000 entries. Source keys are limited to 4,000 characters and values to 8,000 characters. The entire file must fit within 4 MiB.
-- Describe coverage and native-speaker review honestly. Verify punctuation, numbers, and mixed-direction text; code and terminals remain left-to-right.
+- Describe coverage and native-speaker review honestly. Verify punctuation, numbers, and mixed-direction text; code and terminals remain left-to-right. Compare navigation, settings rows, and Market details before and after switching languages, including narrow windows and a restart.
 
 There is currently no local language-file import or visual translation editor. Run the parser check below before a PR; report linguistic review separately. The maintainer verifies the installation/application flow after catalog publication in an isolated profile. A partial pack is acceptable if its scope is explicit.
 
